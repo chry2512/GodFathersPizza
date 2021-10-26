@@ -1,0 +1,16 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Ordini</title>
+</head>
+<body>
+
+	<h1>Dettagli dell'ordine</h1>
+	<ul>
+		<li th:each="item: ${ordini.listaOrdini}">
+		<a th:href="@{/orderlist/{id}(id=${item.numeroOrdine})}"><span th:text="${item.numeroOrdine} + ' Tavolo ' + ${item.tavolo.numero} + ' Stato ' + ${item.stato} + ' Coperti ' +${item.numeroCoperti}"></span>
+		</li>
+	</ul>
+
+</body>
+</html>

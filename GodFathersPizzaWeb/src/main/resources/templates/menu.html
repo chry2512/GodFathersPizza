@@ -1,0 +1,44 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>GodFatherPizza</title>
+</head>
+<body>
+	<h1> God Father's Pizza</h1>
+		<h2> Pizze: </h2>
+			<ul>
+				<li th:each= "item: ${menu.menuPizza}">
+				 <span th:text="${item.getMenuItemLine()}"></span>
+				 </li>
+			</ul>
+	<hr>
+
+
+			<h2> Topping:</h2>
+			<ul>
+				<li th:each="item: ${menu.menuTopping}">
+				<span th:text="${item.getMenuItemLine()}"></span>
+				</li>
+			</ul>
+		<hr>
+		
+		
+		<h2> Drink:</h2>
+			<ul>
+				<li th:each="item: ${menu.menuDrink}">
+				<span th:text="${item.getMenuItemLine()}"></span>
+				</li>
+			</ul>
+		<hr>
+		
+		<h2> Franchise:</h2>
+			<ul>
+				<li th:each="item: ${menu.menuFranchise}">
+				<span th:text="${item.getMenuItemLine()}"></span>
+				</li>
+			</ul>
+		<hr>
+		
+	
+</body>
+</html>
