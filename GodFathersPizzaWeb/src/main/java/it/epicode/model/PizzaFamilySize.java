@@ -16,14 +16,14 @@ public class PizzaFamilySize implements Pizza{
 	}
 
 		
-//	public Pizza getPizza() {
-//		return pizza;
-//	}
-//
-//
-//	public void setPizza(Pizza pizza) {
-//		this.pizza = pizza;
-//	}
+	public Pizza getPizza() {
+		return pizza;
+	}
+
+
+	public void setPizza(Pizza pizza) {
+		this.pizza = pizza;
+	}
 
 
 
