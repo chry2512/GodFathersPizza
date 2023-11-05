@@ -17,53 +17,53 @@ public class Ordine {
 	private Tavolo tavolo;
 	private Map<MenuItem, Integer> ordinato = new HashMap<>();
 
-//	public Integer getNumeroOrdine() {
-//		return numeroOrdine;
-//	}
-//
-//	public StatoOrdine getStato() {
-//		return stato;
-//	}
-//
-//	public Integer getNumeroCoperti() {
-//		return numeroCoperti;
-//	}
-//
-//	public double getCostototale() {
-//		return costototale;
-//	}
-//
-//	public Tavolo getTavolo() {
-//		return tavolo;
-//	}
-//
-//	public Map<MenuItem, Integer> getOrdinato() {
-//		return ordinato;
-//	}
-//
-//	public void setNumeroOrdine(Integer numeroOrdine) {
-//		this.numeroOrdine = numeroOrdine;
-//	}
-//
-//	public void setStato(StatoOrdine stato) {
-//		this.stato = stato;
-//	}
-//
-//	public void setNumeroCoperti(Integer numeroCoperti) {
-//		this.numeroCoperti = numeroCoperti;
-//	}
-//
-//	public void setCostototale(double costototale) {
-//		this.costototale = costototale;
-//	}
-//
-//	public void setTavolo(Tavolo tavolo) {
-//		this.tavolo = tavolo;
-//	}
-//
-//	public void setOrdinato(Map<MenuItem, Integer> ordinato) {
-//		this.ordinato = ordinato;
-//	}
+	public Integer getNumeroOrdine() {
+		return numeroOrdine;
+	}
+
+	public StatoOrdine getStato() {
+		return stato;
+	}
+
+	public Integer getNumeroCoperti() {
+		return numeroCoperti;
+	}
+
+	public double getCostototale() {
+		return costototale;
+	}
+
+	public Tavolo getTavolo() {
+		return tavolo;
+	}
+
+	public Map<MenuItem, Integer> getOrdinato() {
+		return ordinato;
+	}
+
+	public void setNumeroOrdine(Integer numeroOrdine) {
+		this.numeroOrdine = numeroOrdine;
+	}
+
+	public void setStato(StatoOrdine stato) {
+		this.stato = stato;
+	}
+
+	public void setNumeroCoperti(Integer numeroCoperti) {
+		this.numeroCoperti = numeroCoperti;
+	}
+
+	public void setCostototale(double costototale) {
+		this.costototale = costototale;
+	}
+
+	public void setTavolo(Tavolo tavolo) {
+		this.tavolo = tavolo;
+	}
+
+	public void setOrdinato(Map<MenuItem, Integer> ordinato) {
+		this.ordinato = ordinato;
+	}
 
 	public Double getTotale() {
 		Double totale = 0d;
@@ -75,9 +75,9 @@ public class Ordine {
 
 	}
 
-//	public double getCostoCoperto() {
-//		return costoCoperto;
-//	}
+	public double getCostoCoperto() {
+		return costoCoperto;
+	}
 
 	public void addMenuItem(MenuItem item, Integer numero) {
 		this.ordinato.put(item, numero);
