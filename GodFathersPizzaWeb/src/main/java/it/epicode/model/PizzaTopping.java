@@ -10,12 +10,12 @@ public class PizzaTopping implements Pizza {
 	private Double calories;
 	
 	
-//	public PizzaTopping(Pizza pizza, String name, Double price, Double calories) {
-//		this.pizza = pizza;
-//		this.name = name;
-//		this.price = price;
-//		this.calories = calories;
-//	}
+	public PizzaTopping(Pizza pizza, String name, Double price, Double calories) {
+		this.pizza = pizza;
+		this.name = name;
+		this.price = price;
+		this.calories = calories;
+	}
 	
 	public PizzaTopping(String name, Double price, Double calories) {
 		this.name = name;
