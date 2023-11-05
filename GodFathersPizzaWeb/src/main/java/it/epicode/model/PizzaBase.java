@@ -19,34 +19,34 @@ public abstract class PizzaBase implements Pizza{
 	}
 
 
-//	public String getName() {
-//		return name;
-//	}
-//
-//
-//	public void setName(String name) {
-//		this.name = name;
-//	}
-//
-//
-//	public Double getPrice() {
-//		return price;
-//	}
-//
-//
-//	public void setPrice(Double price) {
-//		this.price = price;
-//	}
-//
-//
-//	public Double getCalories() {
-//		return calories;
-//	}
+	public String getName() {
+		return name;
+	}
 
 
-//	public void setCalories(Double calories) {
-//		this.calories = calories;
-//	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public Double getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+
+
+	public Double getCalories() {
+		return calories;
+	}
+
+
+	public void setCalories(Double calories) {
+		this.calories = calories;
+	}
 	
 	public String getMenuItemLine() {
 		return name + " prezzo: " + price + " calorie: " + calories;
