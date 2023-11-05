@@ -46,8 +46,8 @@ public class MenuRunner implements CommandLineRunner {
 		itemOrdine.put(pizMar, 3);
 		itemOrdine.put(drink, 3);
 		itemOrdine.put(pizHaw, 1);
-//		itemOrdine.put(topping, 1);
-//		itemOrdine.put(topping1, 1);
+		itemOrdine.put(topping, 1);
+		itemOrdine.put(topping1, 1);
 		ordine.setOrdinato(itemOrdine);
 	}
 	
@@ -62,8 +62,8 @@ public class MenuRunner implements CommandLineRunner {
 		itemOrdine.put(pizzSal, 2);
 		itemOrdine.put(drink, 2);
 		itemOrdine.put(franch, 2);
-//		itemOrdine.put(topping, 1);
-//		itemOrdine.put(topping1, 1);
+		itemOrdine.put(topping, 1);
+		itemOrdine.put(topping1, 1);
 		ordine.setOrdinato(itemOrdine);
 	}
 	
